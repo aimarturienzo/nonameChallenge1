@@ -92,7 +92,30 @@
     color: white;
     text-decoration: none;
   }
-  
+  .columna {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  .fila {
+    margin: 0 -5px;
+  }
+  .fila:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .tarjeta {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .imgTarjeta{
+    width: 200px;
+    height: 200px;
+  }
+
   @media (max-width:600px) {
     .nav>.nav-btn {
       display: inline-block;
@@ -146,6 +169,11 @@
     .nav>#nav-check:checked~.nav-links {
       height: calc(100vh - 50px);
       overflow-y: auto;
+    }
+    .columna {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
     }
   }
   

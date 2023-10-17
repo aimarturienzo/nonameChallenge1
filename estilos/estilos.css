@@ -110,12 +110,47 @@
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+    opacity: 90%;
+    border-radius: 10px;
   }
   .imgTarjeta{
     width: 200px;
     height: 200px;
   }
+.HistoriaValores{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
 
+ul{
+  text-align: left;
+}
+.sec1{
+  margin-left: 8px;
+  margin-right: 4px;
+  text-align: center;
+  /*margin: auto;*/
+  padding: 16px;
+background-color: #eee;
+opacity: 90%;
+border-radius: 10px;
+}
+
+.sec2{
+  margin-right: 8px;
+  margin-left: 4px;
+  text-align: center;
+  /*margin: auto;*/
+  padding: 16px;
+background-color: #eee;
+opacity: 90%;
+border-radius: 10px;
+}
   @media (max-width:600px) {
     .nav>.nav-btn {
       display: inline-block;
@@ -174,6 +209,26 @@
       width: 100%;
       display: block;
       margin-bottom: 20px;
+    }
+    .HistoriaValores{
+      margin-bottom: 30px;
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+    }
+    .sec2{
+      margin-top: 20px;
+      margin-right: 8px;
+      margin-left: 4px;
+      text-align: center;
+      /*margin: auto;*/
+      padding: 16px;
+    background-color: #eee;
+    opacity: 90%;
+    border-radius: 10px;
     }
   }
   

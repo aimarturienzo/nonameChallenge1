@@ -181,8 +181,11 @@ ul{
       display: inline-block;
       width: 50px;
       height: 50px;
-      padding: 13px;
+      padding-top: 12px;
       color: white;
+      margin-top: 15px;
+      margin-right: 10px;
+      text-align: center;
     }
   
     .nav>.nav-btn>label:hover,
@@ -194,20 +197,24 @@ ul{
       display: block;
       width: 25px;
       height: 10px;
+      margin-top: 20px;
       border-top: 2px solid #eee;
     }
+   .dropdown{
+     padding-top: 75px;
+   }
   
     .nav>.nav-links {
-      position: absolute;
+      position: relative;
       display: block;
       width: 100%;
       background-color: #333;
-      height: 0px;
+      max-height: 300px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
-      top: 50px;
-      left: 0px;
-  
+      top: -17px;
+      text-align: center;
+      padding: 0px;
     }
   
     .nav>.nav-links>a {

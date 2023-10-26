@@ -100,7 +100,7 @@
     align-items: center;
     top: 0;
     left: 0;
-    width: 65vw;
+    width: 65vw; /*View port width, calcula la anchura automaticamente al tamaño del dispositivo*/
   }
   .centrarTit{
     text-align: center;
@@ -139,7 +139,7 @@
     margin-bottom: 30px;
     margin-top: 30px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); /*Posición de dos columnas y una fila*/
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -169,7 +169,7 @@ ul{
   opacity: 90%;
   border-radius: 10px;
 }
-  @media (max-width:600px) {
+  @media (max-width:600px) { /*Cuando el ancho maximo de la pantalla sea de 600px hace sus cambios respectivos para que cada apartado se adapte a es nuevo ancho*/
     .nav>.nav-btn {
       display: inline-block;
       position: absolute;
@@ -239,7 +239,7 @@ ul{
       margin-bottom: 30px;
       margin-top: 30px;
       display: grid;
-      grid-template-columns: repeat(1, 1fr);
+      grid-template-columns: repeat(1, 1fr);/*Pasa de 2 columnas y 1 fila a una columna y una fila*/
       grid-template-rows: 1fr;
       grid-column-gap: 0px;
       grid-row-gap: 0px;
@@ -346,11 +346,6 @@ ul{
     vertical-align: middle;
   }
   
-  .footer-distributed .footer-center i.fa-envelope {
-    font-size: 17px;
-    line-height: 38px;
-  }
-  
   .footer-distributed .footer-center p {
     display: inline-block;
     color: #ffffff;
@@ -408,9 +403,8 @@ ul{
     margin-bottom: 20px;
   }
   
-  /* If you don't want the footer to be responsive, remove these media queries */
   
-  @media (max-width: 880px) {
+  @media (max-width: 880px) { /*Cuando tenga la pantalla este ancho, el footer se cambia para que se adapte al nuevo ancho*/
   
     .footer-distributed {
       font: bold 14px sans-serif;

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NoNamePW</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="../estilos_formulario/login.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <script src="../erronka2.js"></script>
+    <link rel="icon" href="../img/Logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="nav"><!--Para estilos de la barra de navegación-->
+        <input type="checkbox" id="nav-check"><!--Para ocultar el botón de mas al empequeñecer la pantalla-->
+        <div class="nav-header">
+          <div class="nav-title">
+            <a href="../index.html"><img class="logo" src="../img/Logo.png"></a>
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">MÁS</label> <!--Para que luego aparezca el botón-->
+        </div>
+    
+        <div class="nav-links"> <!--Para los estilos de los enlaces de la barra de navegación-->
+        
+            <div class="dropdown"> <!--Para el deplegable-->
+              <span class="color_producto">Productos</span> <!--Etiqueta principal del desplegable-->
+              <div class="dropdown-content"> <!--Contenido del desplegable-->
+                <a href="../paginas/ordenadores.html">Ordenadores</a><br> 
+                <a href="../paginas/moviles.html">Moviles</a><br>
+                <a href="../paginas/perifericos.html">Perifericos</a><br>
+                <a href="../paginas/tablets.html">Tablets</a>
+              </div>
+            </div>
+          <a href="../#NuestroEquipo">Sobre Nosotros</a><!--Te lleva a la seccion de Sobre nostros-->
+          <a href="../paginas/contacto.html">Contacto</a>
+        </div>
+      </div>
+
+
+
+
+
+
+  <div id="contenedor">
+
+    <form class="tablalogin" action="../index.html" method="post">
+        <fieldset>
+          <h1 id="IS">
+            Inicia Sesion
+          </h1>
+          <br><br>
+            <div class="erabiltzailea">
+                <label for="erabiltzailea1"></label>
+                <input class="erabiltzailea1" id="erabiltzailea1" type="email" name="usuario" placeholder="usuario" required><br><br>
+            </div>
+            <div class="pasahaitza">
+                <label for="pasahaitza1"></label>
+                <input class="pasahaitza1" id="pasahaitza1" type="password" name="contrase&ntilde;a" placeholder="contrase&ntilde;a" required onmouseover="barru()" onmouseout="kanpo()"><br><br>
+            </div>
+            <div class="pasahaitzazihurtatu">
+                <a href="../paginas_formulario/recuperarcuenta.html">Recuperar contrase&ntilde;a</a><br><br>
+            </div>
+            <div class="bukatuta">
+                <label for="bukatu1"></label>
+                <input class="bukatuta1" id="bukatu1" type="submit" value="Terminado" onclick="amaitxu()"><br><br>
+            </div>
+            <div class="kontuasortu">
+                <a href="../paginas_formulario/crearcuenta.html">Crear cuenta</a>
+            </div>
+        </fieldset>
+      </form>
+   </div>
+
+
+
+
+
+
+
+
+
+        <footer class="footer-distributed"> <!--Estilos del footer generales-->
+
+            <div class="footer-left"> <!--Estilos de la sección de la izquierda-->
+              <h3>No<span>Name</span></h3>
+              <p class="footer-company-name"> © NoName 2023, Todos los derechos reservados</p>
+            </div>
+        
+            <div class="footer-center"> <!--Estilos de la sección central del footer-->
+              <div>
+                <p><span>Calle Momotxo, 33</span> Durango, Vizcaya, España</p>
+              </div>
+              <div>
+                <p>+34 946 34 36 74</p>
+              </div>
+              <div>
+                <p><a href="mailto:noname@company.com">noname@company.com</a></p>
+              </div>
+            </div>
+        
+        
+            <div class="footer-right"><!--Estilos de la sección derecha del footer-->
+        
+              <div>
+                <p><a href="../#NuestroEquipo">Nuestro Equipo</a></p>
+              </div>
+        
+              <div>
+                <p><a href="../#misionVal">Misisón y Valores</a></p>
+              </div>
+        
+            </div>
+        
+            
+          </footer>    
+
+
+    
+
+</body>
+
+</html>
+

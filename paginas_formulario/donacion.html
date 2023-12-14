@@ -1,0 +1,175 @@
+<html>
+
+
+<head>
+    <title>Pedido del producto</title>
+    <link href="../estilos_formulario/donacion.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <script src="../erronka2.js"></script>
+</head>
+
+<body>
+
+
+    <div class="nav"><!--Para estilos de la barra de navegación-->
+        <input type="checkbox" id="nav-check"><!--Para ocultar el botón de mas al empequeñecer la pantalla-->
+        <div class="nav-header">
+          <div class="nav-title">
+            <a href="../index.html"><img class="logo" src="../img/Logo.png"></a>
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">MÁS</label> <!--Para que luego aparezca el botón-->
+        </div>
+    
+        <div class="nav-links"> <!--Para los estilos de los enlaces de la barra de navegación-->
+        
+            <div class="dropdown"> <!--Para el deplegable-->
+              <span class="color_producto">Productos</span> <!--Etiqueta principal del desplegable-->
+              <div class="dropdown-content"> <!--Contenido del desplegable-->
+                <a href="../paginas/ordenadores.html">Ordenadores</a><br> 
+                <a href="../paginas/moviles.html">Moviles</a><br>
+                <a href="../paginas/perifericos.html">Perifericos</a><br>
+                <a href="../paginas/tablets.html">Tablets</a>
+              </div>
+            </div>
+          <a href="../#NuestroEquipo">Sobre Nosotros</a><!--Te lleva a la seccion de Sobre nostros-->
+          <a href="../paginas/contacto.html">Contacto</a>
+          <a href="../paginas_formulario/login.html">Iniciar sesion</a>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+<div id="Contenedor">
+
+
+
+    <form action="../index.html" method="post" class="formulario">
+        <fieldset>
+
+          <h1 id="IS">
+            Dona Aqui!
+          </h1>
+          <br><br>
+
+            <div class="nombre">
+                <label for="nombre1"></label>
+                <input class="nombre1" id="nombre1" type="text" name="nombre" size="30" placeholder="Introduzca su nombre completo" required max="30"><br><br>
+            </div>
+
+            <div class="apellidos">
+                <label for="apellidos1"></label>
+                <input class="apellidos1" id="apellidos1" type="text" name="Apellidos"  placeholder="introduzca sus apellidos" required max="40"><br><br>
+            </div>
+
+            <div class="telefono">
+                <label for="telefono1"></label>
+                <input class="telefono1" id="telefono1" type="number" name="telefono" placeholder="introduzca su numero de telefono"  required maxlength="9"><br><br>
+            </div>
+
+            <div class="fecha">
+                <label for="fecha1"></label>
+                <input class="fecha1" id="fecha1" type="date" placeholder="fecha de nacimiento"><br><br>
+            </div>
+
+            <div class="pais">
+                <label for="pais1"></label>
+                <select class="pais1" id="pais1" name="menu" required>
+                    <option selected>Pais de origen</option>
+                    <option value="1">Alemania</option>
+                    <option value="2">Espa&ntilde;a</option>
+                    <option value="3">Francia</option>
+                    <option value="4">Italia</option>
+                    </select><br><br>
+                
+            </div>
+
+            <div class="codpostal">
+                <label for="codpostal1"></label>
+                <input class="codpostal1" id="codpostal1" type="text" maxlength="9" placeholder="Introduzca el codigo postal" required><br><br>
+                
+            </div>
+
+            <div class="direccion">
+                <label for="direccion1"></label>
+                <input class="direccion1" id="direccion1" type="text" name="direccion" placeholder="calle/piso/portal" required><br><br>
+            </div>
+
+            <div class="Dudas">
+                <label for="Dudas1"></label>
+                <textarea class="Dudas1" id="Dudas1" name="text" rows="4" cols="40" placeholder="Introduzca sus comentarios"></textarea><br><br>
+            </div>
+
+            <div >
+                
+                <input type="checkbox" name="casilla" id="casi" value="1" required>Estoy de acuerdo con los terminos de uso<br><br>
+            </div>
+
+            <div>
+                
+                <input type="submit" value="Terminar" id="bial" onmouseover="bialdu()" onmouseout="ezbialdu()" ><input type="reset" value="Cancelar">
+            </div>
+            
+        </fieldset>
+
+
+    </form>
+
+</div>
+    
+
+
+
+
+
+    
+
+
+    <footer class="footer-distributed"> <!--Estilos del footer generales-->
+
+        <div class="footer-left"> <!--Estilos de la sección de la izquierda-->
+          <h3>No<span>Name</span></h3>
+          <p class="footer-company-name"> © NoName 2023, Todos los derechos reservados</p>
+        </div>
+    
+        <div class="footer-center"> <!--Estilos de la sección central del footer-->
+          <div>
+            <p><span>Calle Momotxo, 33</span> Durango, Vizcaya, España</p>
+          </div>
+          <div>
+            <p>+34 946 34 36 74</p>
+          </div>
+          <div>
+            <p><a href="mailto:noname@company.com">noname@company.com</a></p>
+          </div>
+        </div>
+    
+    
+        <div class="footer-right"><!--Estilos de la sección derecha del footer-->
+    
+          <div>
+            <p><a href="../#NuestroEquipo">Nuestro Equipo</a></p>
+          </div>
+    
+          <div>
+            <p><a href="../#misionVal">Misisón y Valores</a></p>
+          </div>
+    
+        </div>
+    
+        
+      </footer>    
+
+
+
+</body>
+
+
+
+</html>

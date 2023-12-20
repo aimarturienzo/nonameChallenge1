@@ -2,6 +2,8 @@
 <rss version="2.0">
 
 
+<!-- Documentarlo todo paso a paso-->
+<!-- La mayoria de navegadores van a necesitar una extension de lectura RSS para poder ejecutar este comando y que funcione-->
 
 <channel> <!-- Titilo del canal / canal de noticias-->
 <title>Noname News </title>
@@ -15,14 +17,14 @@
 </item>
 
 <item>
-    <title></title>
-    <link></link><!-- Meter foros/ nuestros html/ lo que sea (direcciones de pagina)-->
-    <description></description>
+    <title>Raspberry_challenge</title>
+    <link>https://docs.google.com/document/d/1fTUtSWuheBlnyRBMINr0DWrT6fWFM4b0DkcSU3xrpTc/edit?usp=sharing</link><!-- Meter foros/ nuestros html/ lo que sea (direcciones de pagina)-->
+    <description>Este documento es un trabajo sobre la Raspberry Pi 3 model B </description>
 </item>
 
 <item>
-    <title></title>
-    <link></link><!-- Meter foros/ nuestros html/ lo que sea (direcciones de pagina)-->
-    <description></description>
+    <title>Raspbian</title>
+    <link>https://turinconinformatico.com/raspberrypi/instalar-raspbian/</link><!-- Meter foros/ nuestros html/ lo que sea (direcciones de pagina)-->
+    <description>Instalar y Configurar Raspberry Pi Os (Raspbian)</description>
 </item>
 </channel>

@@ -8,7 +8,7 @@
 <channel> <!-- Titilo del canal / canal de noticias-->
 <title>Noname News </title>
 <link>http://10.11.0.182/</link><!-- Ip de la pagina (maquina virtual)--><!-- Si no funciona poner una "/" al final-->
-<description> </description>
+<description> Noticias sobre el mundo de la informatica </description>
 
 <item><!-- Articulos de la pagina web-->
     <title>Raspberry</title>

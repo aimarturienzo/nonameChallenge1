@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+
+<!-- Documentarlo todo paso a paso-->
+<!-- La mayoria de navegadores van a necesitar una extension de lectura RSS para poder ejecutar este comando y que funcione-->
+
+<channel> <!-- Titilo del canal / canal de noticias-->
+<title>Noname News </title>
+<link>http://10.11.0.182/</link><!-- Ip de la pagina (maquina virtual)--><!-- Si no funciona poner una "/" al final-->
+<description> Noticias sobre el mundo de la informatica </description>
+
+<item><!-- Articulos de la pagina web-->
+    <title>Raspberry</title>
+    <link>https://www.raspberrypi.com/software/ </link><!-- Meter foros/ nuestros html/ lo que sea (direcciones de pagina)-->
+    <description>Informacion general sobre las raspberry y instalaciones de raspbian </description>
+</item>
+
+<item>
+    <title>Raspberry_challenge</title>
+    <link>https://docs.google.com/document/d/1fTUtSWuheBlnyRBMINr0DWrT6fWFM4b0DkcSU3xrpTc/edit?usp=sharing</link><!-- Meter foros/ nuestros html/ lo que sea (direcciones de pagina)-->
+    <description>Este documento es un trabajo sobre la Raspberry Pi 3 model B </description>
+</item>
+
+<item>
+    <title>Raspbian</title>
+    <link>https://turinconinformatico.com/raspberrypi/instalar-raspbian/</link><!-- Meter foros/ nuestros html/ lo que sea (direcciones de pagina)-->
+    <description>Instalar y Configurar Raspberry Pi Os (Raspbian)</description>
+</item>
+</channel>
+
+</rss>

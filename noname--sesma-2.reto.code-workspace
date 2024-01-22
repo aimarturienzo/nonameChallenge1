@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "nonameChallenge1",
+			"path": "."
+		},
+		{
+			"name": ".vscode",
+			"path": "../../../Documents/GitHub/nonameChallenge1/.vscode"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "nonameChallenge1"
+	}
+}

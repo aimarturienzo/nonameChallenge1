@@ -41,41 +41,31 @@
 
 
 
-
-
-
-  <div id="contenedor">
-
-    <form class="tablalogin" action="../index.html" method="post">
-        <fieldset>
-          <h1 id="IS">
-            Inicia Sesion
-          </h1>
-          <br><br>
-            <div class="erabiltzailea">
-                <label for="erabiltzailea1"></label>
-                <input class="erabiltzailea1" id="erabiltzailea1" type="email" name="usuario" placeholder="usuario" required><br><br>
+    
+    <body>
+        
+        <div id="contenedor">
+            <div id="central">
+                <div id="login">
+                    <div class="titulo">
+                        Bienvenido
+                    </div>
+                    <form id="loginform">
+                        <input type="text" name="usuario" placeholder="Usuario" required>
+                        
+                        <input type="password" placeholder="Contraseña" name="password" required>
+                        
+                        <button type="submit" title="Ingresar" name="Ingresar">Login</button>
+                    </form>
+                    <div class="pie-form">
+                        <a href="../paginas_formulario/crearcuenta.html">¿No tienes Cuenta? Registrate</a>
+                    </div>
+                </div>
             </div>
-            <div class="pasahaitza">
-                <label for="pasahaitza1"></label>
-                <input class="pasahaitza1" id="pasahaitza1" type="password" name="contrase&ntilde;a" placeholder="contrase&ntilde;a" required onmouseover="barru()" onmouseout="kanpo()"><br><br>
-            </div>
-            <div class="pasahaitzazihurtatu">
-                <a href="../paginas_formulario/recuperarcuenta.html">Recuperar contrase&ntilde;a</a><br><br>
-            </div>
-            <div class="bukatuta">
-                <label for="bukatu1"></label>
-                <input class="bukatuta1" id="bukatu1" type="submit" value="Terminado" onclick="amaitxu()"><br><br>
-            </div>
-            <div class="kontuasortu">
-                <a href="../paginas_formulario/crearcuenta.html">Crear cuenta</a>
-            </div>
-        </fieldset>
-      </form>
-   </div>
-
-
-
+         </div>
+            
+    </body>
+</html>
 
 
 

@@ -5,7 +5,7 @@
     <title>NoNamePW</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link href="../estilos_formulario/crearcuenta.css" rel="stylesheet" type="text/css" />
+    <link href="../estilos_formulario/login.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="../estilos/estilos.css">
     <script src="../erronka2.js"></script>
     <link rel="icon" href="../img/Logo.png" type="image/x-icon">
@@ -57,20 +57,24 @@
               <div class="titulo">
                   Crear cuenta
               </div>
-              <form id="loginform">
-                  <input type="text" name="usuario" placeholder="Nombre de usuario" required>
+              <form id="Rform">
+                  <input type="text" id="name" name="usuario" placeholder="Nombre de usuario"  >
+                  
+                  <input type="tel" id="tel" name="telefono" placeholder="Introduce tu numero de telefono"  >
 
-                  <input type="tel" name="telefono" placeholder="Introduce tu numero de telefono" required>
+                  <input type="email" id="gmail" name="Gmail" placeholder="Introduce tu gmail"  >
 
-                  <input type="email" name="Gmail" placeholder="Introduce tu gmail" required>
+                  <input type="password" id="password" placeholder="Contraseña" name="password" >
 
-                  <input type="password" placeholder="Contraseña" name="password1" required>
-                  <input type="password" placeholder="Repetir contraseña" name="password2" required>
+                  <button type="button" title="Ingresar" name="Ingresar" onclick="todocorrecto()">Registrarse</button>
 
-                  <button type="submit" title="Ingresar" name="Ingresar">Registrarse</button>
-              </form>
+                 
+              
+                </form>
               <div class="pie-form">
                   <a href="../paginas_formulario/login.html">¿Ya tienes Cuenta? Logeate</a>
+
+                  <p id="correcto"></p>
               </div>
           </div>
       </div>

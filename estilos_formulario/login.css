@@ -7,6 +7,10 @@ body {
   margin: 0;
   background-color: #0f4c75;
 }
+#ojo{
+  position: relative;
+  
+}
 
 #contenedor {
   display: flex;

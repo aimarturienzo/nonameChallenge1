@@ -1,91 +1,80 @@
-function verificarPasswords() {
- 
-    // Ontenemos los valores de los campos de contraseñas 
-    pass1 = document.getElementById('pass1');
-    pass2 = document.getElementById('pass2');
- 
-    // Verificamos si las constraseñas no coinciden 
-    if (pass1.value != pass2.value) {
- 
-        // Si las constraseñas no coinciden mostramos un mensaje 
-        document.getElementById("error").classList.add("mostrar");
- 
-        return false;
+
+// login
+
+
+//Esta es la funcion que hace cambiar de color al ojo cuando enseña y no enseña el contenido.
+//El if sirve para decirle que se vea el texto y el else para que no se vea
+function contraV (){
+var password = document.getElementById('password');
+
+if (password.type === 'password'){
+    password.type = 'text';
+    document.getElementById('ojo').style.fill = '#0f4c75';
     } else {
- 
-        // Si las contraseñas coinciden ocultamos el mensaje de error
-        document.getElementById("error").classList.remove("mostrar");
- 
-        // Desabilitamos el botón de login 
-        document.getElementById("login").disabled = true;
- 
-        // Refrescamos la página (Simulación de envío del formulario) 
-        setTimeout(function() {
-            location.reload();
-        }, 3000);
- 
-        return true;
+        password.type='password';
+        document.getElementById('ojo').style.fill = 'white';
+}
+}
+
+
+// Esta es la lista de los susuarios contraseñas y roles
+
+
+var listaUsuarios = [
+  {usuario: 'Aritz', contrasena: 'Aritz123', rol: 'Admin'},
+  {usuario: 'Oier', contrasena: 'Oier123',rol:'Usuario'},
+  {usuario: 'Iratxe', contrasena: 'Iratxe123',rol:'Profesor'},
+  {usuario: 'Aimar', contrasena: 'Aimar123', rol: 'Usuario'},
+  {usuario: 'Ekaitz', contrasena: 'Ekaitz123', rol: 'Usuario'}
+];
+
+
+
+
+//Esta es la funcion de validacion de usuarios e contraseñas.
+
+function validar(){
+
+    var usuario = document.getElementById('usuario').value;  
+    var password = document.getElementById('password').value;  
+
+
+    for (let i of listaUsuarios) {
+        if (i.usuario == usuario && i.contrasena == password) {
         
+
+            if (i.rol == "Admin") {
+                console.log('Admin');
+                window.location.href=('../index.html');
+
+            }
+
+            return true;
+            break;
         
-    }
+        }else{
+            
+            alert('Usuario o contraseña incorrectos');
+            return false;
+    } 
 
+}
+}
+
+
+
+
+
+
+
+// register
+
+//Validacion de registro
+
+function todocorrecto(){
+    var  nombre = document.getElementById("name").value;
     
-}
+    document.getElementById('correcto').innerHTML = nombre  + " todo ha salido correctamente, por favor logueate";
 
-function amaitxu(){
-    
-    alert("kaixo ")
-}
-
-function barru(){
-    document.getElementById("pasahaitza1").style.color ="#ff0000"
-
-}
-
-function kanpo(){
-    document.getElementById("pasahaitza1").style.color ="#000000"
-
-}
-
-function barru1(){
-    document.getElementById("pass1").style.color ="#ff0000"
-
-}
-
-function kanpo1(){
-    document.getElementById("pass1").style.color ="#000000"
-
-}
-function barru2(){
-    document.getElementById("pass2").style.color ="#ff0000"
-
-}
-
-function kanpo2(){
-    document.getElementById("pass2").style.color ="#000000"
-
-}
-
-function izena1(){
-    var izena1 =document.getElementById("izena1").value;
-    alert=("kaixo " + izena1)
-}
-
-function reku(){
-
- var parra=document.getElementById("ok").value;
- document.getElementById("bai").innerHTML=(" Muchas gracias,en breve recibiras un mensaje.")
-
-
-}
-
-function bialdu(){
-    document.getElementById("bial").value="Enviar"
-    
-}
-
-function ezbialdu(){
-    document.getElementById("bial").value="Terminar"
-    
-
+   
 }

@@ -103,6 +103,15 @@ body {
   background-color: #0f4c75;
   color:#bbe1fa;
 }
+#registrar{
+  background-color: #bbe1fa;
+  
+}
+#registrar:hover{
+  background-color: #0f4c75;
+  color:#bbe1fa;
+  
+}
 
 .pie-form {
   font-size: 90%;

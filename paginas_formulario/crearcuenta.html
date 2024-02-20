@@ -49,7 +49,7 @@
 
 
 
-<body>
+
         
   <div id="contenedor">
       <div id="central">
@@ -58,15 +58,15 @@
                   Crear cuenta
               </div>
               <form id="Rform">
-                  <input type="text" id="name" name="usuario" placeholder="Nombre de usuario"  >
+                  <input type="text" id="name" name="usuario" placeholder="Nombre de usuario" required >
                   
-                  <input type="tel" id="tel" name="telefono" placeholder="Introduce tu numero de telefono"  >
+                  <input type="tel" id="tel" name="telefono" placeholder="Introduce tu numero de telefono" required >
 
-                  <input type="email" id="gmail" name="Gmail" placeholder="Introduce tu gmail"  >
+                  <input type="email" id="gmail" name="Gmail" placeholder="Introduce tu gmail" required >
 
-                  <input type="password" id="password" placeholder="Contraseña" name="password" >
+                  <input type="password" id="password" placeholder="Contraseña" name="password" required >
 
-                  <button type="button" title="Ingresar" name="Ingresar" onclick="todocorrecto()">Registrarse</button>
+                  <input type="button" title="Ingresar" name="Ingresar" id="registrar" onmouseout="out()" onmouseover="over()" onclick="todocorrecto()" value="Registrarse">
 
                  
               
@@ -80,8 +80,7 @@
       </div>
    </div>
       
-</body>
-</html>
+
 
 
 

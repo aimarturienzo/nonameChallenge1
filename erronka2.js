@@ -42,23 +42,34 @@ function validar(){
     for (let i of listaUsuarios) {
         if (i.usuario == usuario && i.contrasena == password) {
         
-
+      
             if (i.rol == "Admin") {
                 console.log('Admin');
                 window.location.href=('../index.html');
+                return true;
 
-            }
+            } 
+            else if (i.rol == 'Usuario') {
+                console.log('Usuario');
+                window.location.href=('../index.html');
+                return true;
 
-            return true;
+            } 
+            else if (i.rol == 'Profesor') {
+                console.log('Profesor');
+                window.location.href=('../index.html');
+                return true;
+            } 
             break;
         
         }else{
             
             alert('Usuario o contraseña incorrectos');
             return false;
-    } 
 
-}
+        }  
+
+    }
 }
 
 
@@ -76,5 +87,12 @@ function todocorrecto(){
     
     document.getElementById('correcto').innerHTML = nombre  + " todo ha salido correctamente, por favor logueate";
 
-   
+}
+
+function over() {
+    document.getElementById('registrar').value = 'Registrarse ya!';
+}
+
+function out() {
+    document.getElementById('registrar').value = 'Regístrate';
 }

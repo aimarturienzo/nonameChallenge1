@@ -37,39 +37,46 @@ function validar(){
 
     var usuario = document.getElementById('usuario').value;  
     var password = document.getElementById('password').value;  
-
+    var encontrado = false;
+    var rol;
 
     for (let i of listaUsuarios) {
         if (i.usuario == usuario && i.contrasena == password) {
         
-      
-            if (i.rol == "Admin") {
-                console.log('Admin');
-                window.location.href=('../index.html');
-                return true;
-
-            } 
-            else if (i.rol == 'Usuario') {
-                console.log('Usuario');
-                window.location.href=('../index.html');
-                return true;
-
-            } 
-            else if (i.rol == 'Profesor') {
-                console.log('Profesor');
-                window.location.href=('../index.html');
-                return true;
-            } 
+            encontrado = true;
+            rol= i.rol;
             break;
-        
-        }else{
-            
-            alert('Usuario o contraseña incorrectos');
-            return false;
-
+           
         }  
+    }
 
-}
+    if (encontrado){
+        if (rol == "Admin") {
+            console.log('Admin');
+            window.location.href=('../index.html');
+          
+
+        } 
+        else if (rol == 'Usuario') {
+            console.log('Usuario');
+            window.location.href=('../index.html');
+         
+
+        } 
+        else if (rol == 'Profesor') {
+            console.log('Profesor');
+            window.location.href=('../index.html');
+            
+        } 
+        return true;
+    
+    }else{
+        
+        alert('Usuario o contraseña incorrectos');
+        return false;
+
+    }
+
 }
 
 

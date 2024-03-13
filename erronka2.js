@@ -33,7 +33,7 @@ var listaUsuarios = [
   {usuario: 'Aritz', contrasena: 'Aritz123', rol: 'Admin'},
   {usuario: 'Oier', contrasena: 'Oier123',rol:'Usuario'},
   {usuario: 'Iratxe', contrasena: 'Iratxe123',rol:'Profesor'},
-  {usuario: 'Aimar', contrasena: 'Aimar123', rol: 'Usuario'},
+  {usuario: 'Aimar', contrasena: 'Aimar123', rol: 'Admin'},
   {usuario: 'Ekaitz', contrasena: 'Ekaitz123', rol: 'Usuario'}
 ];
 
@@ -67,7 +67,7 @@ try {
     if (encontrado){
         if (rol == "Admin") {
             console.log('Admin');
-            window.location.href=('../index.html');
+            window.location.href=('../paginas/admin.html');
           
 
         } 

@@ -32,7 +32,7 @@ if (password.type === 'password'){
 var listaUsuarios = [
   {usuario: 'Aritz', contrasena: 'Aritz123', rol: 'Admin'},
   {usuario: 'Oier', contrasena: 'Oier123',rol:'Usuario'},
-  {usuario: 'Iratxe', contrasena: 'Iratxe123',rol:'Profesor'},
+  {usuario: 'Iratxe', contrasena: 'Iratxe123',rol:'Usuario'},
   {usuario: 'Aimar', contrasena: 'Aimar123', rol: 'Admin'},
   {usuario: 'Ekaitz', contrasena: 'Ekaitz123', rol: 'Usuario'}
 ];
@@ -77,11 +77,7 @@ try {
          
 
         } 
-        else if (rol == 'Profesor') {
-            console.log('Profesor');
-            window.location.href=('../index.html');
-            
-        } 
+
         return true;
     
     }else{

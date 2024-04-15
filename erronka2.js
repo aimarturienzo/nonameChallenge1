@@ -8,7 +8,7 @@ function contraV (){
     try {
         
    
-var password = document.getElementById('password');
+var password = document.getElementById('password1');
 
 if (password.type === 'password'){
     password.type = 'text';
@@ -50,7 +50,7 @@ try {
 
 
     var usuario = document.getElementById('usuario').value;  
-    var password = document.getElementById('password').value;  
+    var password = document.getElementById('password1').value;  
     var encontrado = false;
     var rol;
 
@@ -95,6 +95,24 @@ try {
 
 
 
+// Funcion para  agregar un usuario a la array
+
+function Hide() {
+
+    try {
+
+        document.getElementById('CrearC').style.display= 'block';
+        document.getElementById('Log').style.display= 'none';
+        
+        
+    } catch (error) {
+        console.log("Error en la función" + error);
+    }
+
+
+
+}
+
 
 
 
@@ -103,9 +121,31 @@ try {
 //Validacion de registro
 
 function todocorrecto(){
+
+
+
     var  nombre = document.getElementById("name").value;
+    var rol = document.getElementById("Rol").value;
+    var contraseña = document.getElementById("password2").value;
     
-    document.getElementById('correcto').innerHTML = nombre  + " todo ha salido correctamente, por favor logueate";
+
+
+    
+        var NuevoU = {
+            usuario: nombre,
+            contrasena: contraseña,
+            rol: rol
+        };
+
+        listaUsuarios.push(NuevoU);
+        console.log(listaUsuarios);
+
+    window.prompt = nombre  + " todo ha salido correctamente, por favor logueate";
+    alert(window.prompt);
+    document.getElementById('CrearC').style.display= 'none';
+    document.getElementById('Log').style.display= 'block';
+
+       
 
 }
 

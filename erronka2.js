@@ -137,13 +137,21 @@ function todocorrecto(){
             rol: rol
         };
 
-        listaUsuarios.push(NuevoU);
-        console.log(listaUsuarios);
+    var mensaje = "error";
+    if (nombre!="" && contraseña != "" && rol != "") {
 
-    window.prompt = nombre  + " todo ha salido correctamente, por favor logueate";
-    alert(window.prompt);
-    document.getElementById('CrearC').style.display= 'none';
-    document.getElementById('Log').style.display= 'block';
+        
+            listaUsuarios.push(NuevoU);
+            console.log(listaUsuarios);
+            mensaje =nombre  + " todo ha salido correctamente, por favor logueate";
+            document.getElementById('CrearC').style.display= 'none';
+            document.getElementById('Log').style.display= 'block';
+
+    }
+        
+
+    alert(mensaje);
+    
 
        
 

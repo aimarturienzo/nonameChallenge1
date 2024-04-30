@@ -15,7 +15,7 @@
           <input type="checkbox" id="nav-check"/>
           <div class="nav-header">
             <div class="nav-title">
-              <a href="index.html">
+              <a href="../index.html">
                 <img class="logo" src="../img/logo.png"/>
               </a>
             </div>

@@ -6,16 +6,19 @@
 <html>
 <head>
     <title>Trabajadores</title>
-    <link href="estilos.css" type="text/css" rel="stylesheet"/>
+    <link href="Tickets.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
     <h1>Trabajadores</h1>
     <p>Lista de trabajadores</p>
     <table border="1">
-            <tr>
+
+    <thead> <tr>
                 <th> Referencia </th>
                 <th> ID_Seguimiento </th>
             </tr>
+    </thead>
+           
         <xsl:for-each select="DATA/ROW">
             <tr>
                 <td><xsl:value-of select="ref"/></td>

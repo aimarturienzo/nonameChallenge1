@@ -27,16 +27,16 @@
             <div class="dropdown">
               <span class="color_producto">Productos</span>
               <div class="dropdown-content">
-                <a href="paginas/ordenadores.html">Ordenadores</a><br/>
-                <a href="paginas/moviles.html">Moviles</a><br/>
-                <a href="paginas/perifericos.html">Perifericos</a><br/>
-                <a href="paginas/tablets.html">Tablets</a>
+                <a href="../paginas/ordenadores.html">Ordenadores</a><br/>
+                <a href="../paginas/moviles.html">Moviles</a><br/>
+                <a href="../paginas/perifericos.html">Perifericos</a><br/>
+                <a href="../paginas/tablets.html">Tablets</a>
               </div>
             </div>
-            <a href="#NuestroEquipo">Sobre Nosotros</a>
-            <a href="paginas/contacto.html">Contacto</a>
-            <a href="noticias.xml">Noname News</a>
-            <a href="paginas_formulario/login.html">Iniciar sesion</a>
+            <a href="../#NuestroEquipo">Sobre Nosotros</a>
+            <a href="../paginas/contacto.html">Contacto</a>
+            <a href="../noticias.xml">Noname News</a>
+            <a href="../paginas_formulario/login.html">Iniciar sesion</a>
           </div>
         </div>
 

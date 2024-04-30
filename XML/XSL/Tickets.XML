@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet  type='text/xsl' herf='Tickets.xsl'?>
+<DATA>
+
+	<ROW>
+		<ref>TS2404-0001</ref>
+		<track_id>fyfxoivjtfr5631b</track_id>
+		<subject>El ordenador asignado funciona lentamente</subject>
+		<message>El ordenador de la planta de administración contiene mucho contenido basura que perjudica el rendimiento de este</message>
+		<type_code>ISSUE</type_code>
+		<severity_code>NORMAL</severity_code>
+		<datec>2024-04-23 11:01:48</datec>
+		<date_close>2024-04-23 11:06:28</date_close>
+	</ROW>
+
+	<ROW>
+		<ref>TS2404-0002</ref>
+		<track_id>z4x138i2lvz5ie7e</track_id>
+		<subject>Error en el inicio de s</subject>
+		<message>No me deja iniciar sesión en la cuenta de la empresa para hacer cambios en las facturas realizadas, aun poniendo la clave y el usuario correctamente.</message>
+		<type_code>ISSUE</type_code>
+		<severity_code>HIGH</severity_code>
+		<datec>2024-04-23 11:43:59</datec>
+		<date_close>NULL</date_close>
+	</ROW>
+
+	<ROW>
+		<ref>TS2404-0003</ref>
+		<track_id>gcgxiniqggyhvc1p</track_id>
+		<subject>Cambio de silla</subject>
+		<message>Necesito una silla nueva, la actual no esta en muy buen estado, por lo tanto necesito una silla de repuesto para evitar cualquier problema físico.</message>
+		<type_code>REQUEST</type_code>
+		<severity_code>HIGH</severity_code>
+		<datec>2024-04-24 08:40:54</datec>
+		<date_close>NULL</date_close>
+	</ROW>
+
+	<ROW>
+		<ref>TS2404-0004</ref>
+		<track_id>d3eqfmd5xputynxg</track_id>
+		<subject>Cambio de auriculares</subject>
+		<message>Necesito unos auriculares nuevos ,los actuales tienen el cable bastante defectuoso y para evitar cualquier cosa me 
+harían falta unos nuevos de repuesto para que aunque sea no haya peligro de nada.</message>
+		<type_code>REQUEST</type_code>
+		<severity_code>NORMAL</severity_code>
+		<datec>2024-04-24 08:44:46</datec>
+		<date_close>NULL</date_close>
+	</ROW>
+
+	<ROW>
+		<ref>TS2404-0005</ref>
+		<track_id>s853cezyey3hk1qf</track_id>
+		<subject>Implementar un sistema de gestión de tareas</subject>
+		<message>He hecho  una solicitud de ayuda funcional para implementar un sistema de gestión de tareas accesible para todos los empleados, incluyendo aquellos con discapacidades visuales o motoras.</message>
+		<type_code>HELP</type_code>
+		<severity_code>NORMAL</severity_code>
+		<datec>2024-04-24 08:51:01</datec>
+		<date_close>NULL</date_close>
+	</ROW>
+
+	<ROW>
+		<ref>TS2404-0006</ref>
+		<track_id>u6auir21v45ry2vg</track_id>
+		<subject>Teclado ergonómico</subject>
+		<message>He hecho una solicitud de ayuda funcional para obtener un teclado ergonómico y un mouse con soporte para personas con dolor en las manos y muñecas.</message>
+		<type_code>HELP</type_code>
+		<severity_code>HIGH</severity_code>
+		<datec>2024-04-24 08:53:19</datec>
+		<date_close>NULL</date_close>
+	</ROW>
+</DATA>
